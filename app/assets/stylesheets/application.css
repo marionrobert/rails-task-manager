@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 10%;
+}
+
+.tasks-list {
+  list-style-type: none;
+  margin: 5% 0;
+}
+
+.tasks-list-item {
+ margin: 5% 0;
+
+}
+
+.tasks-list-item a {
+ text-decoration: none;
+ padding: 0 2%;
+ color: rgb(174, 76, 189) ;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(76, 121, 189) ;
+}
+
+.background-grey {
+  background-color: rgb(223, 221, 221);
+  padding: 2%;
+}
